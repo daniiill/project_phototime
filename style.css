@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+}
+
+.body {
+    background-color: #fff;
+
+}
+
+.container {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    font-family: "GothamRounded-Medium";
+}
+
+
+
+/* button GET STARTED */
+.get_started {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 25% auto;
+}
+
+.get_started_btn {
+    font-size: 12px;
+    display: inline-block;
+    background: #16A085;
+    padding: 16px 38px;
+    border-radius: 3px;
+    transition: transform .15s linear, background .15s linear;
+}
+
+.get_started_btn a {
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 38px;
+}
+
+.get_started_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    background: #16a084bb;
+}
+
+/* simple_photo section */
+.section_simple_photo {
+    background-color: #F5F6F7;
+}
+
+.simple_photo {
+    margin: 0;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.simple_photo_body {
+    max-width: 390px;
+}
+
+.title {
+    font-size: 18px;
+    letter-spacing: 3.5px;
+    color: #16A085;
+    margin-bottom: 40px;
+}
+
+.suptitle {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #373737;
+    margin-bottom: 40px;
+}
+
+.simple_photo_img {
+    position: relative;
+}
+
+.simple_photo_hand {
+    position: relative;
+    top: 200px;
+}
+
+.simple_photo_phone {
+    position: absolute;
+    top: 200px;
+    left: 285px;
+}
+
+
+/* design section   */
+.design {
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-height: 560px;
+    overflow: hidden;
+
+}
+
+.design_body {
+    max-width: 398px;
+    margin: 140px 0px 80px 325px ;
+}
+
+.design_button {
+    font-size: 12px;
+    display: inline-block;
+    background: #16A085;
+    padding: 16px 38px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    transition: transform .15s linear, background .15s linear;
+}
+
+.design_button a {
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 38px;
+}
+
+.design_button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    background: #16a084bb;
+}
+
+.design_img {
+    position: relative;
+    top: 140px;
+}
+
+.design_arrows {
+    display: flex;
+    margin-top: 8px;
+}
+
+.design_arrows_left::before {
+    content: "";
+    border: 1px solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(135deg);
+    cursor: pointer;
+}
+.design_arrows_right::before {
+    content: "";
+    border: 1px solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+
+/* gallery section */
+.gallery {
+    background-color: #F5F6F7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-height: 490px;
+    overflow: hidden;
+    padding: 120px 0px;
+}
+
+.gallery_info {
+    max-width: 180px;
+    margin: 50px;
+    text-align: center;
+}
+
+.gallery_icon {
+    padding-bottom: 25px;
+}
+
+.gallery_title {
+    font-size: 16px;
+    color: #373737;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+.gallery_suptitle {
+    font-size: 10px;
+    color: #373737;
+    letter-spacing: 0.5px;
+}
+
+.arrows_position {
+    position: relative;
+    bottom: 10px;
+    left: 95%;
+}
+
+
+/* subscribe section */
+.subscribe {
+    background: url(./subscribe_bg.png) center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 350px 0px 320px 0px;
+}
+
+.subscribe_title {
+    font-size: 24px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.subscribe_form {
+    display: flex;
+}
+
+.subscribe_form input {
+    width: 280px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: left;
+    background: white;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    color: #000;
+    padding: 20px 5px 10px;
+    outline: none;
+}
+
+.subscribe_form button {
+    width: 63px;
+    height: 60px;
+    background: #16A085;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    transition: background .15s linear;
+}
+
+.subscribe_form button:hover{
+    cursor: pointer;
+    background: #16a084bb;
+}
+
+
+/* section download */
+.download {
+    background: #F5F6F7;
+    padding-top: 85px;
+    padding-bottom: 120px;
+}
+
+.download_body {
+    align-items: center;
+    text-align: center;
+
+    padding-bottom: 50px;
+}
+
+.download_title {
+    font-size: 20px;
+    color: #373737;
+}
+
+.download_suptitle {
+    font-size: 12px;
+    color: #373737;
+}
+
+.download_button {
+    display: flex;
+    justify-content: center;
+}
+
+.download_button_apple {
+    display: flex;
+}
+
+.button_apple {
+    width: 240px;
+    height: 56px;
+    font-size: 16px;
+    
+    background: #1ABC9C;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    color: #fff;
+}
+
+.download_button_apple {
+    margin-right: 25px;
+}
+
+.download_button_apple button {
+    width: 56px;
+    height: 56px;
+    background: #16A085;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    transition: background .15s linear;
+}
+
+.download_button_apple button:hover{
+    cursor: pointer;
+    background: #16a084bb;
+}
+
+.button_apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 130px;
+}
+
+.footer_body {
+    font-size: 14px;
+    color: #373737;
+}
+
+.footer_icon {
+    justify-content: right;
+}
+
+@font-face {
+	font-family: "GothamRounded-Medium";
+	font-display: swap;
+	src: url("./GothamRounded-Medium.otf");
+    src: local("O"), url("./GothamRoundedMedium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
